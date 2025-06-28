@@ -1,0 +1,21 @@
+{
+    "miss_mode_enabled": true,
+    "miss_waveform": "潮汐",
+    "miss_channels": [
+        "A"
+    ],
+    "pp_mode_enabled": false,
+    "pp_waveform": "潮汐",
+    "pp_channels": [
+        "A"
+    ],
+    "pp_threshold": 1.0,
+    "combo_mode_enabled": false,
+    "combo_threshold": 100,
+    "pp_increase_threshold": 10.0,
+    "reward_combo_waveform": "潮汐",
+    "reward_combo_channels": [],
+    "reward_pp_waveform": "呼吸",
+    "reward_pp_channels": [],
+    "test_waveform": "呼吸"
+}
