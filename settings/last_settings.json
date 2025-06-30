@@ -1,0 +1,22 @@
+{
+    "miss_mode_enabled": false,
+    "miss_waveform": "♂",
+    "miss_channels": [
+        "A"
+    ],
+    "pp_mode_enabled": false,
+    "pp_waveform": "潮汐",
+    "pp_channels": [
+        "A"
+    ],
+    "pp_threshold": 1.0,
+    "combo_mode_enabled": true,
+    "pp_reward_enabled": true,
+    "combo_threshold": 60,
+    "pp_increase_threshold": 5.0,
+    "reward_combo_waveform": "压缩",
+    "reward_combo_channels": [],
+    "reward_pp_waveform": "♂",
+    "reward_pp_channels": [],
+    "test_waveform": "♂"
+}
