@@ -161,7 +161,9 @@ class AppController:
                 
                 # 由于 Combo 触发的 Miss 只是一个信号，这里只加1
                 # 真正的 Miss 数量同步将在后续的 current_miss_count 检查中完成
-                self.processed_miss_count = max(self.processed_miss_count, current_miss_count) # 确保至少更新到当前 miss 计数
+                self.processed_miss_count += 1
+                if self.processed_miss_count < current_miss_count:
+                    self.processed_miss_count = current_miss_count
             
             # --- 检查 Miss 计数是否增加，补发漏掉的波形 ---
             if current_miss_count > self.processed_miss_count:
