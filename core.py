@@ -216,8 +216,8 @@ class AppController:
         # Combo模式下，单独判断断连，重置奖励基线
         if settings['combo_mode_enabled'] and self.prev_combo is not None and current_combo is not None:
             if current_combo < self.prev_combo and self.prev_combo > 0:
-                self.log_event(f"Combo奖励模式: 检测到断连({self.prev_combo} -> {current_combo})，重置奖励基线为阈值 {settings['combo_threshold']}")
-                self.last_reward_combo = settings['combo_threshold']
+                self.log_event(f"Combo奖励模式: 检测到断连({self.prev_combo} -> {current_combo})，重置奖励基线为0")
+                self.last_reward_combo = 0
         # 连击奖励优化：补发所有跨越的奖励
         if settings['combo_mode_enabled'] and current_combo is not None and current_combo > self.last_reward_combo:
             while current_combo >= self.last_reward_combo + settings['combo_threshold']:
