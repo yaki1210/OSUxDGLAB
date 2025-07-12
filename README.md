@@ -10,6 +10,8 @@ OSUxDGLab 是一个桥接应用程序，它能读取来自 **TOSU (由 gosumemor
 
 *OSUxDGLab 主界面，实时显示游戏数据与触发器配置。*
 
+演示视频(https://www.bilibili.com/video/BV1q13nzaExX/)
+
 ---
 
 ### ✨ 主要功能
