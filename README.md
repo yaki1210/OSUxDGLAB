@@ -39,7 +39,7 @@ OSUxDGLab 是一个桥接应用程序，它能读取来自 **TOSU (由 gosumemor
 ### 🚀 如何使用
 
 1.  **下载程序:**
-    -   从本项目的 **[Releases 页面](https://github.com/luxunus/OSUxDGLAB/releases)** 下载最新的 `OSUxDGLab.exe` 文件。
+    -   从本项目的 **[Releases 页面](https://github.com/luxunus/OSUxDGLAB/releases)** 下载最新的 `OSUxDGLab.exe` 文件，或下载OSUxDGLab.zip。
 
 2.  **准备并启动TOSU:**
     -   确保您已经下载了 `tosu.exe`。
