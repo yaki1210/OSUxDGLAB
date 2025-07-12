@@ -6,7 +6,7 @@
 
 OSUxDGLab 是一个桥接应用程序，它能读取来自 **TOSU (由 gosumemory 提供)** 的实时 osu! 游戏事件，并根据高度可定制的触发条件，自动向 DG-Lab 设备发送波形，从而将游戏中的关键时刻（如连击、失误、PP变化）转化为真实的物理反馈，极大地增强了您的游戏沉浸感。
 
-![OSUxDGLab 主界面](https://raw.githubusercontent.com/yaki1210/OSUxDGLAB/assets/UI.png)
+![OSUxDGLab 主界面](https://raw.githubusercontent.com/yaki1210/OSUxDGLAB/main/assets/UI.png)
 
 *OSUxDGLab 主界面，实时显示游戏数据与触发器配置。*
 
